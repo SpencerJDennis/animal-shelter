@@ -1,8 +1,28 @@
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  text-align: center;
+  border: solid black;
+  border-width: 5px;
+  background-color: azure;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(230, 230, 60);
+}
+
 .column {
-  width: 400px;
+  width: 375px;
   float: left;
-  margin-left: 15px;
+  margin-left: 23px;
+  margin-top: 15px;
   font-style: normal;
+  background-color: azure;
+  border: solid black;
+  border-width: 5px;
+  padding: 5px;
 }
 
 .column h2 {
@@ -11,6 +31,13 @@
   font-style: italic;
 }
 
+.column p {
+  text-align: center;
+}
+
 img {
+  margin-top: 15px;
   margin-left: 70px;
+  border-style: hidden;
+  border-radius: 10px;
 }
